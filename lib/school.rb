@@ -22,7 +22,7 @@ class School
   end
 
   def sort
-    @roster.each do |grade, student|
+    @roster.each do |grade|
 
       grade(grade).sort
 
@@ -35,9 +35,9 @@ end
 
 school = School.new("Bayside High School")
 roster = school.roster
-school.grade(9)
-school.add_student("trey", 9)
-school.add_student("Jerry", 9)
+# school.grade(9)
+# school.add_student("trey", 9)
+# school.add_student("Jerry", 9)
 
 school.add_student("Homer Simpson", 9)
 school.add_student("Bart Simpson", 9)
