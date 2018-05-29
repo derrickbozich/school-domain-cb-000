@@ -25,8 +25,8 @@ class School
     hash = {}
     @roster.each do |grade, student|
 
-      
-      
+
+
         if hash.keys.include?(grade) == false
           hash[grade]=[]
         end
@@ -55,11 +55,11 @@ school.add_student("Jeff Baird", 10)
 school.add_student("Blake Johnson", 7)
 school.add_student("Jack Bauer", 7)
 
-hash = {}
-roster.each do |g,s|
-  if hash.keys.include?(g) == false
-    hash[g]=[]
-  end
-  hash[g]= roster[g].sort
-end
-hash
+# hash = {}
+# roster.each do |g,s|
+#   if hash.keys.include?(g) == false
+#     hash[g]=[]
+#   end
+#   hash[g]= roster[g].sort
+# end
+# hash
