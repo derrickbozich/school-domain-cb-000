@@ -47,8 +47,3 @@ school.add_student("Avi Flombaum", 10)
 school.add_student("Jeff Baird", 10)
 school.add_student("Blake Johnson", 7)
 school.add_student("Jack Bauer", 7)
-
-roster.each do |g,s|
-  array = g.sort
-  s.sort
-end
